@@ -17,13 +17,13 @@ class Card:
     def to_dict(self):
         return asdict(self)
 
-
 def test_field_access():
     c = Card("something", "brian", "todo", 123)
     assert c.summary == "something"
     assert c.owner == "brian"
     assert c.state == "todo"
     assert c.id == 123
+
 
 
 def test_defaults():
@@ -62,6 +62,8 @@ def test_from_dict():
     }
     c2 = Card.from_dict(c2_dict)
     assert c1 == c2
+
+
 
 
 def test_to_dict():

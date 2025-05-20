@@ -5,7 +5,7 @@ import cards
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture(scope="module")
 def cards_db():
     with TemporaryDirectory() as db_dir:
         db_path = Path(db_dir)

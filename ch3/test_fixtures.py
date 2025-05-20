@@ -4,39 +4,21 @@ import pytest
 
 
 @pytest.fixture()
-def some_data():
-    """Return answer to ultimate question."""
-    return 42
-def test_some_data(some_data):
-    """Use fixture return value in a test."""
-    assert some_data == 42
+def r_dict():
+    print('pudge1')
+    yield {'1': 'dismember', '2': 'black hole', '3': 'assasinate'}
+    print('pudge2')
+@pytest.fixture(scope="module")
+def r_tuple():
+    print('pudge start')
+    yield ('pudge;dismember', 'enigma;black hole', 'sniper;assasinate' )
+    print('pudge finish')
 
+def test_dict(r_dict, r_tuple):
+    assert type(r_dict) is dict
 
-
-
-@pytest.fixture()
-def some_other_data():
-    """Raise an exception from fixture."""
-    x = 43
-    assert x == 42
-    return x
-
-
-def test_other_data(some_other_data):
-    """Try to use failing fixture."""
-    assert some_other_data == 42
-
-
-
-
-@pytest.fixture()
-def a_tuple():
-    """Return something more interesting."""
-    return (1, "foo", None, {"bar": 23})
-
-
-def test_a_tuple(a_tuple):
-    """Demo the a_tuple fixture."""
-    assert a_tuple[3]["bar"] == 32
-
-
+def test_tuple(r_tuple, r_dict):
+    assert type(r_tuple) is tuple
+    assert r_dict != r_tuple
+    for i in range(3):
+        assert r_dict[str(i+1)] == r_tuple[i].split(";")[1]

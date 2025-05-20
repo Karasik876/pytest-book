@@ -12,7 +12,7 @@ def test_start(cards_db):
     c = cards_db.get_card(i)
     assert c.state == "in prog"
 
-
+@pytest.mark.exception
 def test_start_non_existent(cards_db):
     """
     Shouldn't be able to start a non-existent card.

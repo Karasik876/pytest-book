@@ -9,7 +9,7 @@ def test_typer_runner():
     print()
     print(f"version: {result.stdout}")
 
-    result = runner.invoke(app, ["list", "-o", "brian"])
+    result = runner.invoke(app, ["list"])
     print(f"list:\n{result.stdout}")
 
 

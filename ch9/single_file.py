@@ -11,7 +11,7 @@ def baz():
 
 
 def main():
-    print(foo(), baz())
+    print(foo(), baz(), bar())
 
 
 if __name__ == "__main__":  # pragma: no cover
@@ -31,4 +31,4 @@ def test_baz():
 def test_main(capsys):
     main()
     captured = capsys.readouterr()
-    assert captured.out == "foo baz\n"
+    assert captured.out == "foo baz bar\n"

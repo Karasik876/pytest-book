@@ -5,24 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feae6d1d-5cbc-4b9b-8e43-60a2ce914bd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pytest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards_proj/src/cards/my.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards_proj/src/cards/my2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch5/test_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/ch8/tests/a/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/ch8/tests/b/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercises/ch8/tests/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest-book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/test_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/test_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/test_typer_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/test_typer_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/test_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/test_experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/test_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/test_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/test_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch4/test_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/test_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5/test_fix_param.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/test_fix_param.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch5/test_func_param.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/test_func_param.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch6/smoke/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ch6/smoke/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch6/smoke/test_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch6/smoke/test_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch7/test_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch7/test_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch9/single_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch9/single_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch9/some_code/test_some_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch9/some_code/test_some_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ch2/test_card_mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ch2/test_card_mod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ch6/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ch6/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ch6/test_markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ch6/test_markers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ch8/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ch8/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2p597AV6ajeDsVPlbS4KyhRYB7R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,10 +64,119 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in hello_world.py.executor": "Run",
+    "Python tests.Python tests in test_card_fail.py.executor": "Run",
+    "Python tests.Python tests in test_start.py.executor": "Run",
+    "Python.my.executor": "Run",
+    "Python.my2.executor": "Run",
+    "Python.test_one.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Files/Pytest-book/pytest-book",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.my">
+    <configuration name="my" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytest-book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cards_proj/src/cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cards_proj/src/cards/my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytest-book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cards_proj/src/cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cards_proj/src/cards/my2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in hello_world.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest-book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ch4/hello_world.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_card_fail.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest-book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ch2/test_card_fail.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_start.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pytest-book" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ch5/test_start.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.my" />
+        <item itemvalue="Python.my2" />
+        <item itemvalue="Python tests.Python tests in test_start.py" />
+        <item itemvalue="Python tests.Python tests in hello_world.py" />
+        <item itemvalue="Python tests.Python tests in test_card_fail.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

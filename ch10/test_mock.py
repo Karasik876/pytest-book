@@ -24,8 +24,10 @@ def test_mock_CardsDB():
         print()
         print(f"       class:{MockCardsDB}")
         print(f"return_value:{MockCardsDB.return_value}")
+
         with cards.cli.cards_db() as db:
             print(f"      object:{db}")
+            assert db == MockCardsDB.return_value
 
 
 def test_mock_path():

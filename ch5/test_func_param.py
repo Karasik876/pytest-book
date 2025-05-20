@@ -1,14 +1,13 @@
 import pytest
 from cards import Card
 
-
 @pytest.mark.parametrize(
     "start_summary, start_state",
     [
         ("write a book", "done"),
         ("second edition", "in prog"),
-        ("create a course", "todo"),
-    ],
+        ("create a course", "todo")
+    ]
 )
 def test_finish(cards_db, start_summary, start_state):
     initial_card = Card(summary=start_summary, state=start_state)
@@ -18,7 +17,6 @@ def test_finish(cards_db, start_summary, start_state):
 
     card = cards_db.get_card(index)
     assert card.state == "done"
-
 
 
 @pytest.mark.parametrize("start_state", ["done", "in prog", "todo"])

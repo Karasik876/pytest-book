@@ -5,6 +5,7 @@ def test_version_v1():
     process = subprocess.run(
         ["cards", "version"], capture_output=True, text=True
     )
+    print(process)
     output = process.stdout.rstrip()
     assert output == cards.__version__
 
@@ -18,12 +19,14 @@ def test_version_v2(capsys):
     assert output == cards.__version__
 
 
+
 from typer.testing import CliRunner
 
 
 def test_version_v3():
     runner = CliRunner()
     result = runner.invoke(cards.app, ["version"])
+    print(result.stdout)
     output = result.output.rstrip()
     assert output == cards.__version__
 
